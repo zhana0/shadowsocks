@@ -1,7 +1,7 @@
 使用下面的命令来运行容器：
 
 ```
-docker run -it -p 8388:8388 -e PORT=8388 -e PASSWORD=你的密码 --name ssserver zhana0/shadowsocks
+docker run -p 8388:8388 -e PORT=8388 -e PASSWORD=你的密码 --name ssserver zhana0/shadowsocks
 ```
 
 替换`PORT`和`PASSWORD`参数为你自己的配置。
